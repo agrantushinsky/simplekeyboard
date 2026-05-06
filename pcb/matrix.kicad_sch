@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "428ded2f-db71-4a63-aa0a-0d2185566ebc")
 	(paper "A4")
+	(title_block
+		(title "Keyboard Matrix")
+		(date "2026-05-05")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:D"
 			(pin_numbers
