@@ -1,0 +1,162 @@
+(footprint "2.5mm_Wide"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.5mm")
+	(tags "mounting hole 2.5mm")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0d159af-9618-4829-874d-3430e6f7ebb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.5mm_Pad"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "a66d9676-65f1-4cd7-af47-6f84392abd2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8327cf10-31c7-42ad-a408-aa80c3831fef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c43727bd-e3d3-4312-89d9-6fea9f45916f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "70028c53-8d47-4962-828c-6b9facb2569c")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "81bf7866-1ea0-4974-b3af-0d8ed4058b8e")
+	)
+	(fp_arc
+		(start -2.5 2.5)
+		(mid -5 0)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "62c4a039-9607-480e-8ff0-31c471e5f539")
+	)
+	(fp_arc
+		(start 2.5 -2.5)
+		(mid 5 0)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "58e00bb3-b6f7-40e5-a0a9-192e85529ae7")
+	)
+	(fp_line
+		(start -2.5 -2.75)
+		(end 2.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6efbea4-d300-48c4-98ce-daf02130b4e0")
+	)
+	(fp_line
+		(start -2.5 2.75)
+		(end 2.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcfd430f-b243-4319-891a-248323a87575")
+	)
+	(fp_arc
+		(start -2.5 2.75)
+		(mid -5.25 0)
+		(end -2.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1a18ecd-d489-4228-b829-93d005a42f7c")
+	)
+	(fp_arc
+		(start 2.5 -2.75)
+		(mid 5.25 0)
+		(end 2.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10dba525-7d9c-423b-aa8d-ab5183a7ee55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "264bc151-b4ed-40d6-9ad0-78333b83ffff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 10 5)
+		(drill oval 7 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f6882d9-8f4f-4bc1-a427-4c7693ee7a68")
+	)
+	(embedded_fonts no)
+)
