@@ -7946,7 +7946,7 @@
 		)
 		(uuid "07256c2a-04e8-4031-b756-7964baef8d42")
 	)
-	(label "USB_D+"
+	(label "USBC_D+"
 		(at 50.8 63.5 0)
 		(effects
 			(font
@@ -13009,7 +13009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+5V"
 			(at 68.58 51.816 0)
 			(effects
 				(font
