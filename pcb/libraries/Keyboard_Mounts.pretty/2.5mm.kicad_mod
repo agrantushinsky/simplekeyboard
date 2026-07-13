@@ -6,7 +6,7 @@
 	(descr "Mounting Hole 2.5mm")
 	(tags "mounting hole 2.5mm")
 	(property "Reference" "REF**"
-		(at 0 -4.5 0)
+		(at 1.25 -4.25 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "b0d159af-9618-4829-874d-3430e6f7ebb8")
@@ -78,9 +78,21 @@
 		(uuid "36b22271-38ae-4357-9bbb-a42fa4ee93f2")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 1.25 -4.25 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "264bc151-b4ed-40d6-9ad0-78333b83ffff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.75 0)
+		(layer "F.Fab")
+		(uuid "43865908-111a-41e4-9463-86dab5e36f26")
 		(effects
 			(font
 				(size 1 1)
