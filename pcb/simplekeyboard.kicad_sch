@@ -7966,7 +7966,7 @@
 		)
 		(uuid "0deb84b7-e686-439c-80b7-299e8c43bf91")
 	)
-	(label "SWIO"
+	(label "SWDIO"
 		(at 193.04 123.19 0)
 		(effects
 			(font
@@ -7986,7 +7986,7 @@
 		)
 		(uuid "1017043f-cf9f-4f97-8c9a-f3bb85befb54")
 	)
-	(label "SWIO"
+	(label "SWDIO"
 		(at 83.82 140.97 0)
 		(effects
 			(font
