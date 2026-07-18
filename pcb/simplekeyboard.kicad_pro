@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 7.0,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 5.0,
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -118,10 +118,6 @@
         ],
         [
           "annular_width|51130000|34770000|02064525-02fd-4147-9631-3d37be42e8e7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "clearance|32684375|47394375|48c5388b-d6c3-4752-99e7-561147a555e0|b73e8b0f-c975-4abc-99ef-6709ad821bc1",
           ""
         ],
         [
@@ -721,12 +717,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

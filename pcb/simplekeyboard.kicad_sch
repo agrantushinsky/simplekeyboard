@@ -8885,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 41.91 90)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 94.2848 0)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -9633,7 +9633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 146.05 0)
 			(effects
 				(font
@@ -9702,7 +9702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.2552 31.75 0)
 			(effects
 				(font
@@ -9836,7 +9836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.1852 34.29 0)
 			(effects
 				(font
@@ -10575,7 +10575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 123.19 0)
 			(effects
 				(font
@@ -10972,7 +10972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 146.05 0)
 			(effects
 				(font
@@ -11572,7 +11572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.91 114.808 90)
 			(effects
 				(font
@@ -11843,7 +11843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Mounts:2.5mm_Wide"
+		(property "Footprint" "Keyboard_Mounts:2.5mm_Oblong"
 			(at 127 215.9 0)
 			(effects
 				(font
@@ -11975,7 +11975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 123.19 0)
 			(effects
 				(font
@@ -12178,7 +12178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.452 41.91 90)
 			(effects
 				(font
@@ -12248,7 +12248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Mounts:2.5mm_Wide"
+		(property "Footprint" "Keyboard_Mounts:2.5mm_Oblong"
 			(at 104.14 215.9 0)
 			(effects
 				(font
@@ -14200,7 +14200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.0752 146.05 0)
 			(effects
 				(font
