@@ -5,9 +5,10 @@
 	(uuid "312ab52b-f5fa-4c1e-9c90-f6eee5852284")
 	(paper "A4")
 	(title_block
-		(title "simplekeyboard")
-		(date "2026-05-05")
+		(title "Main")
+		(date "2026-07-18")
 		(rev "A")
+		(company "agrantushinsky/simplekeyboard")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"

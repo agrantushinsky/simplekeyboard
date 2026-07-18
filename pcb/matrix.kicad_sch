@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Keyboard Matrix")
-		(date "2026-05-05")
+		(date "2026-07-18")
 		(rev "A")
+		(company "agrantushinsky/simplekeyboard")
 	)
 	(lib_symbols
 		(symbol "Device:D"
