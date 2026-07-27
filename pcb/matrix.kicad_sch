@@ -12686,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ai03_MX:MX-Solderable-6.25U"
+		(property "Footprint" "ai03_MX:MX-Solderable-6.25U-ReversedStabilizers"
 			(at 115.57 121.92 0)
 			(effects
 				(font
