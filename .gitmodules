@@ -1,3 +1,15 @@
 [submodule "pcb/libraries/MX_V2"]
 	path = pcb/libraries/MX_V2
 	url = https://github.com/ai03-2725/MX_V2.git
+[submodule "firmware/libs/stm32f0xx-hal-driver"]
+	path = firmware/libs/stm32f0xx-hal-driver
+	url = https://github.com/STMicroelectronics/stm32f0xx-hal-driver.git
+[submodule "firmware/libs/cmsis-device-f0"]
+	path = firmware/libs/cmsis-device-f0
+	url = https://github.com/STMicroelectronics/cmsis-device-f0.git
+[submodule "firmware/libs/FreeRTOS-Kernel"]
+	path = firmware/libs/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "firmware/libs/cmsis-core"]
+	path = firmware/libs/cmsis-core
+	url = https://github.com/STMicroelectronics/cmsis-core.git
