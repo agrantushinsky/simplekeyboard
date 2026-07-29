@@ -13,3 +13,6 @@
 [submodule "firmware/libs/cmsis-core"]
 	path = firmware/libs/cmsis-core
 	url = https://github.com/STMicroelectronics/cmsis-core.git
+[submodule "firmware/libs/tinyusb"]
+	path = firmware/libs/tinyusb
+	url = https://github.com/hathach/tinyusb.git

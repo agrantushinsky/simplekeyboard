@@ -24,6 +24,7 @@ CMSIS_DIR         = $(LIBS_DIR)/cmsis-device-f0
 CMSIS_CORE_DIR 	  = $(LIBS_DIR)/cmsis-core/CMSIS/Core
 FREERTOS_DIR      = $(LIBS_DIR)/FreeRTOS-Kernel
 FREERTOS_PORT_DIR = $(FREERTOS_DIR)/portable/GCC/ARM_CM0
+TINYUSB_DIR		  = $(LIBS_DIR)/tinyusb/src
 
 # ------------------------------------------------------------------------------
 # Source Files
@@ -46,8 +47,14 @@ SRCS += $(FREERTOS_DIR)/list.c
 SRCS += $(FREERTOS_DIR)/timers.c
 SRCS += $(FREERTOS_DIR)/portable/MemMang/heap_4.c
 
-# FreeRTOS Portable Layer (Cortex-M0)
-SRCS += $(FREERTOS_PORT_DIR)/port.c
+# TinyUSB Core Sources
+SRCS += libs/tinyusb/src/tusb.c
+SRCS += libs/tinyusb/src/common/tusb_fifo.c
+SRCS += libs/tinyusb/src/device/usbd.c
+SRCS += libs/tinyusb/src/class/hid/hid_device.c
+
+# STM32 F0 USB Hardware Driver (Synopsys OTG / FSDEV)
+SRCS += libs/tinyusb/src/portable/st/stm32_fsdev/dcd_stm32_fsdev.c
 
 # ------------------------------------------------------------------------------
 # Include Directories
@@ -58,6 +65,7 @@ INCLUDES += -I$(CMSIS_DIR)/Include
 INCLUDES += -I$(CMSIS_CORE_DIR)/Include
 INCLUDES += -I$(FREERTOS_DIR)/include
 INCLUDES += -I$(FREERTOS_PORT_DIR)
+INCLUDES += -I$(TINYUSB_DIR)
 
 # ------------------------------------------------------------------------------
 # Compiler & Linker Flags
