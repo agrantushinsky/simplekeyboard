@@ -70,6 +70,7 @@ CFLAGS   += -O2 -g3 -Wall -Wextra -Wshadow
 CFLAGS   += -DSTM32F072xB
 CFLAGS   += -ffunction-sections -fdata-sections
 CFLAGS   += $(INCLUDES)
+CFLAGS   += -Wno-attributes
 
 # Linker Flags
 LDFLAGS  += $(ARCH_FLAGS)

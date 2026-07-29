@@ -60,14 +60,27 @@
 #define xPortPendSVHandler  PendSV_Handler
 #define xPortSysTickHandler SysTick_Handler
 
+#define configASSERT( x ) if( ( x ) == 0 ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
+
 static inline uint32_t ulSetInterruptMask(void) {
-    uint32_t ulResult;
-    __asm volatile("mrs %0, primask \n cpsid i" : "=r"(ulResult) :: "memory");
-    return ulResult;
+    uint32_t ulReturn;
+    __asm volatile (
+        " mrs %0, primask \n"
+        " cpsid i         \n"
+        " dsb             \n"
+        " isb             \n"
+        : "=r" (ulReturn) :: "memory"
+    );
+    return ulReturn;
 }
 
 static inline void vClearInterruptMask(uint32_t ulNewMaskValue) {
-    __asm volatile("msr primask, %0" :: "r"(ulNewMaskValue) : "memory");
+    __asm volatile (
+        " msr primask, %0 \n"
+        " dsb             \n"
+        " isb             \n"
+        :: "r" (ulNewMaskValue) : "memory"
+    );
 }
 
 #endif /* FREERTOS_CONFIG_H */
