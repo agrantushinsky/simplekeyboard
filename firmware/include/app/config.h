@@ -19,6 +19,7 @@ typedef struct {
     struct {
         GPIO_TypeDef* port;
         uint32_t      pin;
+        uint32_t      periph;
     } status_led;
 
     struct {

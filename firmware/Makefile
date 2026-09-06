@@ -38,7 +38,9 @@ SRCS += $(wildcard $(SRC_DIR)/drivers/*.c)
 ASM_SRCS += $(wildcard $(SRC_DIR)/*.s)
 
 # ST Low-Layer (LL) Sources 
-SRCS += $(wildcard $(HAL_DIR)/Src/*_ll_*.c)
+LL_SRCS := $(wildcard $(HAL_DIR)/Src/*_ll_*.c)
+LL_SRCS := $(filter-out $(HAL_DIR)/Src/stm32f0xx_ll_usb.c, $(LL_SRCS))
+SRCS += $(LL_SRCS)
 
 # FreeRTOS Kernel Sources
 SRCS += $(FREERTOS_DIR)/tasks.c
@@ -46,6 +48,8 @@ SRCS += $(FREERTOS_DIR)/queue.c
 SRCS += $(FREERTOS_DIR)/list.c
 SRCS += $(FREERTOS_DIR)/timers.c
 SRCS += $(FREERTOS_DIR)/portable/MemMang/heap_4.c
+SRCS += $(FREERTOS_PORT_DIR)/port.c
+SRCS += $(FREERTOS_PORT_DIR)/portasm.c
 
 # TinyUSB Core Sources
 SRCS += libs/tinyusb/src/tusb.c
@@ -79,6 +83,10 @@ CFLAGS   += -DSTM32F072xB
 CFLAGS   += -ffunction-sections -fdata-sections
 CFLAGS   += $(INCLUDES)
 CFLAGS   += -Wno-attributes
+CFLAGS   += -DconfigENABLE_MPU=0
+CFLAGS   += -DconfigENABLE_FPU=0
+CFLAGS   += -DconfigENABLE_TRUSTZONE=0
+CFLAGS   += -DUSE_FULL_LL_DRIVER
 
 # Linker Flags
 LDFLAGS  += $(ARCH_FLAGS)
@@ -145,6 +153,14 @@ lsp:
 # Flash target using OpenOCD & ST-Link
 flash: $(BUILD_DIR)/$(TARGET).elf
 	openocd -f interface/stlink.cfg -f target/stm32f0x.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+
+# Flash target using USB DFU
+flash-usb: $(BUILD_DIR)/$(TARGET).bin
+	dfu-util -a 0 -d 0483:df11 -s 0x08000000:leave -D $<
+
+# Start GDB debug session
+debug: $(BUILD_DIR)/$(TARGET).elf
+	arm-none-eabi-gdb $< -ex "target remote localhost:3333" -ex "monitor reset halt" -ex "load"
 
 # Clean build artifacts
 clean:

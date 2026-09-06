@@ -1,5 +1,7 @@
 #include "app/config.h"
 #include "stm32f0xx_ll_gpio.h"
+#include "stm32f0xx_ll_bus.h"
+#include "stm32f0xx_ll_gpio.h"
 
 const config_t g_config = {
     .col_expander = { 
@@ -12,7 +14,8 @@ const config_t g_config = {
     },
     .status_led = { 
         .port = GPIOA,
-        .pin = LL_GPIO_PIN_6
+        .pin = LL_GPIO_PIN_6,
+        .periph = LL_AHB1_GRP1_PERIPH_GPIOA
     },
     .row_int_pin = { 
         .port = GPIOA,
