@@ -17,6 +17,7 @@
 
 #include "stm32f0xx_ll_exti.h"
 #include "drivers/status_led.h"
+#include "tusb.h"
 
 //extern PCD_HandleTypeDef hpcd_USB_FS;
 //extern TIM_HandleTypeDef htim1;
@@ -77,6 +78,6 @@ void TIM1_BRK_UP_TRG_COM_IRQHandler(void)
  */
 void USB_IRQHandler(void)
 {
-    //HAL_PCD_IRQHandler(&hpcd_USB_FS);
+    tud_int_handler(0);
 }
 

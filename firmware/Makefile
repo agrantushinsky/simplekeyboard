@@ -58,7 +58,7 @@ SRCS += libs/tinyusb/src/device/usbd.c
 SRCS += libs/tinyusb/src/class/hid/hid_device.c
 
 # STM32 F0 USB Hardware Driver (Synopsys OTG / FSDEV)
-SRCS += libs/tinyusb/src/portable/st/stm32_fsdev/dcd_stm32_fsdev.c
+SRCS += $(wildcard libs/tinyusb/src/portable/st/stm32_fsdev/*.c)
 
 # ------------------------------------------------------------------------------
 # Include Directories
