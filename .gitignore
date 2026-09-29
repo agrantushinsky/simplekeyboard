@@ -37,3 +37,32 @@ fp-info-cache
 
 # Manufacturing files
 pcb/gerbers/**
+
+# Build Artifacts & Toolchain Outputs
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+
+# Language Server Protocol & IDE Files
+compile_commands.json
+.clangd/
+.cache/
+.vscode/
+.idea/
+
+# OpenCode / AI Tool Configs & Local Secrets
+.opencode/
+opencode.json
+*.env
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
