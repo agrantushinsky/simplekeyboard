@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - "-I/usr/arm-none-eabi/include"
+    - "-I/usr/lib/arm-none-eabi/include"
+    - "-D__GNUC__"
+  Remove:
+    - "-fconserve-stack"
