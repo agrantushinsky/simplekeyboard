@@ -7,7 +7,7 @@
 	(title_block
 		(title "Main")
 		(date "2026-07-18")
-		(rev "A")
+		(rev "1.1")
 		(company "agrantushinsky/simplekeyboard")
 	)
 	(lib_symbols
@@ -8047,6 +8047,16 @@
 		)
 		(uuid "424ec0b7-93e7-47bd-9cfa-0a670ee72b6b")
 	)
+	(label "I2C1_SCL"
+		(at 132.08 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "457edf5a-92d7-46ab-9fdc-9c0fb1c48846")
+	)
 	(label "USBC_D-"
 		(at 53.34 60.96 0)
 		(effects
@@ -8056,6 +8066,16 @@
 			(justify left bottom)
 		)
 		(uuid "4655d198-f21a-4b4b-9435-8b924364b6b5")
+	)
+	(label "I2C1_SDA"
+		(at 132.08 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53f92f83-22dc-4f04-ba21-62f9c75536f2")
 	)
 	(label "VDDIO2"
 		(at 139.7 114.3 0)
@@ -8096,16 +8116,6 @@
 			(justify right bottom)
 		)
 		(uuid "74d0d556-bcb0-4973-bbe2-b08e4ee13053")
-	)
-	(label "I2C1_SCL"
-		(at 132.08 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d90cf67-0497-4a99-a061-6e09918bfb3d")
 	)
 	(label "SWCLK"
 		(at 83.82 143.51 0)
@@ -8237,16 +8247,6 @@
 			(justify left bottom)
 		)
 		(uuid "c210cd9c-4bf9-45d0-90ec-d70fc5a8b078")
-	)
-	(label "I2C1_SDA"
-		(at 132.08 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c705002a-9bd4-4293-9ac5-bf8fd5f2916e")
 	)
 	(label "USB_D+"
 		(at 74.93 63.5 0)

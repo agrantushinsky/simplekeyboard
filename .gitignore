@@ -37,3 +37,6 @@ fp-info-cache
 
 # Manufacturing files
 pcb/gerbers/**
+
+# Cad
+*.FCBak

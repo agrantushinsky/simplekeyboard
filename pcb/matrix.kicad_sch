@@ -7,7 +7,7 @@
 	(title_block
 		(title "Keyboard Matrix")
 		(date "2026-07-18")
-		(rev "A")
+		(rev "1.1")
 		(company "agrantushinsky/simplekeyboard")
 	)
 	(lib_symbols
@@ -3810,6 +3810,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 133.35 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "046f0501-8a0c-48af-88ce-f0084d8154f7")
+		(property "Reference" "D20"
+			(at 131.826 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 131.826 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95e35d01-4409-44d9-99a7-b68ba2e9346b")
+		)
+		(pin "2"
+			(uuid "d3c78951-8fb3-46ca-8a4d-7ea68580a1ef")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04fca18e-698f-41ab-a2f4-908472be1f77")
+		(property "Reference" "D46"
+			(at 119.126 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 119.126 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8775f17-5917-4629-b697-77096fffbf9b")
+		)
+		(pin "2"
+			(uuid "779eeebf-d0a7-4860-b049-d6cd2b04c15a")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 77.47 106.68 0)
 		(unit 1)
@@ -4014,6 +4188,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 209.55 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10107aa1-c6b7-4791-b649-d6e15deaa044")
+		(property "Reference" "D12"
+			(at 208.026 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 208.026 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce46b326-fe5b-42a2-9d6a-563b0f2da020")
+		)
+		(pin "2"
+			(uuid "381c93d6-184f-43bc-9b62-4728d583f8f8")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 128.27 66.04 0)
 		(unit 1)
@@ -4150,6 +4411,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 171.45 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a412c5-071b-4fc1-830e-a1197258a00d")
+		(property "Reference" "D9"
+			(at 169.926 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 169.926 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7b6f756-d588-4fd1-8d37-024ae29b1f51")
+		)
+		(pin "2"
+			(uuid "de468503-d261-425b-8f65-cc92a8f01d65")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 153.67 106.68 0)
 		(unit 1)
@@ -4219,15 +4567,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 234.95 111.76 270)
+		(at 196.85 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1309f9e5-d7aa-4a73-a440-1a6ba2365f19")
-		(property "Reference" "D53"
-			(at 229.616 110.49 90)
+		(uuid "1529bf2c-7566-4ed3-beb4-91970cc61f2a")
+		(property "Reference" "D52"
+			(at 195.326 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4584,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 229.616 112.268 90)
+			(at 195.326 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4593,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 111.76 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 111.76 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4611,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 234.95 111.76 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4620,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 234.95 111.76 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4629,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 111.76 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,15 +4638,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f81f8d4-7f3f-4856-815e-2788ecca8162")
+			(uuid "eae22baa-60dd-40de-960e-6117a26b99a4")
 		)
 		(pin "2"
-			(uuid "d7ad3d9d-d51c-49ae-af66-b12624ad9baf")
+			(uuid "8a32b3d6-87eb-443d-9608-2c30783c28dd")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D53")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -4578,15 +4926,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 111.76 270)
+		(at 82.55 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c9fba86-15c1-423d-85b9-f481538a3bc8")
+		(uuid "1c593191-5fa2-4c22-bd56-750fb1b9013f")
 		(property "Reference" "D43"
-			(at 77.216 110.49 90)
+			(at 81.026 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4943,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 77.216 112.268 90)
+			(at 81.026 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,10 +4997,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "330e1f69-c989-4d4e-acfc-72091035a3e2")
+			(uuid "545a7175-46e2-4445-a6b8-19f0024e3692")
 		)
 		(pin "2"
-			(uuid "8b94eb18-993f-4ef6-8754-a0bbefec0b25")
+			(uuid "aa9c0f55-7b39-4ff7-bf15-b98e22292a71")
 		)
 		(instances
 			(project "simplekeyboard"
@@ -4725,6 +5073,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1defbbf7-60ac-4189-9bdf-ff466946954a")
+		(property "Reference" "D32"
+			(at 106.426 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 106.426 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b679a57-8bcf-424b-bd89-351ef1542b04")
+		)
+		(pin "2"
+			(uuid "144b335c-a2cc-4c3b-9660-cfda31820cad")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4935,15 +5370,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 107.95 91.44 270)
+		(at 222.25 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2246bec7-979e-4b01-84f4-733deb418961")
-		(property "Reference" "D32"
-			(at 102.616 90.17 90)
+		(uuid "22584baf-7384-4a11-bff5-abecfeb9b495")
+		(property "Reference" "D27"
+			(at 220.726 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5387,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 102.616 91.948 90)
+			(at 220.726 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5396,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 107.95 91.44 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 91.44 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5414,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 107.95 91.44 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5423,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 107.95 91.44 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5432,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 91.44 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,15 +5441,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "443f9622-2e66-42a6-96c2-3f54e8e0e3bd")
+			(uuid "8b452b58-5879-477e-ac01-3b1f9fdc0926")
 		)
 		(pin "2"
-			(uuid "c4fad6c7-366b-48a4-b976-5b072a9f1934")
+			(uuid "300fda11-863a-416a-adf6-400f86869083")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D32")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -5022,15 +5457,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 107.95 71.12 270)
+		(at 82.55 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22ab2053-4198-478c-a46b-ca37bd8616cb")
-		(property "Reference" "D18"
-			(at 102.616 69.85 90)
+		(uuid "257a37ab-28ff-4443-909a-afcdddddafc8")
+		(property "Reference" "D54"
+			(at 81.026 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5474,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 102.616 71.628 90)
+			(at 81.026 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 107.95 71.12 0)
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 71.12 0)
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5501,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 107.95 71.12 0)
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5510,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 107.95 71.12 0)
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5519,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 71.12 0)
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,276 +5528,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5fdb8b0-600a-4ebe-86eb-93de1566380e")
+			(uuid "34337877-03ab-45ba-a47f-a8e7665ba5c7")
 		)
 		(pin "2"
-			(uuid "afceae6b-9a04-4dff-a727-7cb935949aa1")
+			(uuid "6a4c02bd-eb93-4e85-a274-f4891e5482d5")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 133.35 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23757d61-d897-4af6-a255-25e96514efa2")
-		(property "Reference" "D34"
-			(at 128.016 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 128.016 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "929a1ce8-a7ac-4123-a0f0-fb133abb90cc")
-		)
-		(pin "2"
-			(uuid "3fc7b327-c9e2-4984-930d-6d6b836b19c7")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 222.25 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2513ee1b-6a34-4964-a1df-96423f25925c")
-		(property "Reference" "D60"
-			(at 216.916 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 216.916 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af3a1e6-14a8-4676-a8ab-a792a04215a5")
-		)
-		(pin "2"
-			(uuid "b1c92c84-37a4-44b8-9afc-9cb28df16a0c")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 209.55 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "262e9e6c-a048-46c6-9e48-d233dd7d9574")
-		(property "Reference" "D26"
-			(at 204.216 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 204.216 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 209.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 209.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9eb13fcd-135e-4c52-a906-434e994bf145")
-		)
-		(pin "2"
-			(uuid "667b8e30-374b-48b5-9151-2b2b9f84f888")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D26")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -5438,15 +5612,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 132.08 270)
+		(at 196.85 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2d9bbe1d-e59e-4cd8-9d51-ee26395c0610")
-		(property "Reference" "D55"
-			(at 89.916 130.81 90)
+		(uuid "2e3c0897-9894-45c3-82f3-3fdec62dd5b3")
+		(property "Reference" "D25"
+			(at 195.326 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5629,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 89.916 132.588 90)
+			(at 195.326 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 95.25 132.08 0)
+			(at 196.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 132.08 0)
+			(at 196.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 95.25 132.08 0)
+			(at 196.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5665,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 132.08 0)
+			(at 196.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5674,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 132.08 0)
+			(at 196.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,102 +5683,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1217d08-f259-45b5-9940-da520c9b7721")
+			(uuid "3264b17c-9f42-4ba0-9990-a1aa70d054df")
 		)
 		(pin "2"
-			(uuid "a0dfc8b1-46de-47fa-8b4f-54f3c3e8667e")
+			(uuid "e295094f-a022-4771-bf87-a1264202e9cf")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 234.95 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31da2376-c569-4950-b4c1-f5d6454fb36b")
-		(property "Reference" "D28"
-			(at 229.616 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 229.616 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "510a31c2-caa1-40f3-82db-bd8e74c80192")
-		)
-		(pin "2"
-			(uuid "1fc8cc8f-4c3e-4224-86bf-e6be70e835d9")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D28")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -5680,15 +5767,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 184.15 71.12 270)
+		(at 146.05 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "338994fe-6af8-47e7-b761-6d133f2affc1")
-		(property "Reference" "D24"
-			(at 178.816 69.85 90)
+		(uuid "343b12cd-4096-4cd5-9a2c-9ed930106a77")
+		(property "Reference" "D48"
+			(at 144.526 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5784,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 178.816 71.628 90)
+			(at 144.526 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5793,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 184.15 71.12 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 71.12 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5811,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 184.15 71.12 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5820,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 184.15 71.12 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5829,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 71.12 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,15 +5838,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f72b3044-829b-4eb3-b77e-7373441fc47d")
+			(uuid "7b7ea376-1702-4a1b-b6d6-b56a82922fca")
 		)
 		(pin "2"
-			(uuid "0015fea0-4dae-463b-ac74-6e910157c723")
+			(uuid "91527d22-d98c-4b6d-9a1c-cba7ae901a52")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D24")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -5767,15 +5854,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 120.65 91.44 270)
+		(at 69.85 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b1950fb-4842-4fd8-813b-3b6e5e9867b5")
-		(property "Reference" "D33"
-			(at 115.316 90.17 90)
+		(uuid "3736036a-f44c-405d-b491-59bac8ae4652")
+		(property "Reference" "D29"
+			(at 68.326 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5871,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 115.316 91.948 90)
+			(at 68.326 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5880,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +5898,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 120.65 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5907,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5916,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,15 +5925,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d332006a-6837-459d-86c8-feaf242e0bd1")
+			(uuid "145f6cfc-c36f-49f1-9c93-b9d0149f6025")
 		)
 		(pin "2"
-			(uuid "c984ab17-5095-4552-b37c-336c3f22ac8f")
+			(uuid "cdb628ee-8c08-4f6f-83fd-52414a96bed8")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D33")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -5922,15 +6009,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 111.76 270)
+		(at 146.05 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3e8e3fe3-aa59-4c20-b773-f14225a41d6b")
-		(property "Reference" "D48"
-			(at 140.716 110.49 90)
+		(uuid "3b9d4363-0b5b-4bda-ba2d-60a63d649e21")
+		(property "Reference" "D35"
+			(at 144.526 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +6026,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 140.716 112.268 90)
+			(at 144.526 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +6035,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 111.76 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 111.76 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6053,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 111.76 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +6062,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 111.76 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6071,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 111.76 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,15 +6080,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6e95913-b89a-4c3e-97e1-d8b51e09a025")
+			(uuid "9356c8f7-51cf-4fb0-9c95-f8b2b0fe3018")
 		)
 		(pin "2"
-			(uuid "f8909c18-01ce-4623-b0f1-7969d7c58871")
+			(uuid "ea4fdb5a-dfae-4eb3-8223-9b31a5e882b4")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D48")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -6009,15 +6096,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 71.12 270)
+		(at 120.65 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "43e830ff-f627-40f8-b94f-de491d947a8c")
-		(property "Reference" "D17"
-			(at 89.916 69.85 90)
+		(uuid "3c56a164-c109-466f-93b2-8e05de1175e1")
+		(property "Reference" "D5"
+			(at 119.126 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6113,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 89.916 71.628 90)
+			(at 119.126 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 95.25 71.12 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 71.12 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6140,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 95.25 71.12 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6149,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 71.12 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6158,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 71.12 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,15 +6167,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3da52a23-ad23-4c08-8a7e-8b2566648816")
+			(uuid "f363b0c3-f5f5-4c34-b4c2-ee96969e6671")
 		)
 		(pin "2"
-			(uuid "f1840aa6-1976-4732-aaa8-438ae001304a")
+			(uuid "47eef9d6-f43a-442e-9bd8-2b543d1d62b4")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D17")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6096,15 +6183,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 184.15 50.8 270)
+		(at 234.95 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "44739aa3-bf17-486b-822b-ac3f9b192dc1")
-		(property "Reference" "D10"
-			(at 178.816 49.53 90)
+		(uuid "3d5b789c-20c3-4aea-a4a4-acc254514b49")
+		(property "Reference" "D61"
+			(at 233.426 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6200,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 178.816 51.308 90)
+			(at 233.426 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6209,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 184.15 50.8 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 50.8 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6227,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 184.15 50.8 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6236,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 184.15 50.8 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6245,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 50.8 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,102 +6254,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47b96c68-00f4-45d3-afa1-b3b546d83bae")
+			(uuid "373f647c-7fb5-4e36-a0e6-2140335654e2")
 		)
 		(pin "2"
-			(uuid "e813680a-ef76-4986-a8d5-595ce29f0d51")
+			(uuid "fe5ab871-01ca-42d0-9ccc-d5925e75c420")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 196.85 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4508ca28-f38f-4770-8874-75450608bd81")
-		(property "Reference" "D58"
-			(at 191.516 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 191.516 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 196.85 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 196.85 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "040e0e6e-c2bc-48d5-971f-68c2bf621269")
-		)
-		(pin "2"
-			(uuid "f70533d0-59f1-4596-876e-8ef9a8a70c12")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D58")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -6337,93 +6337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 146.05 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "466f51f9-5e29-46dd-b83d-ae849f44d7ab")
-		(property "Reference" "D21"
-			(at 140.716 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 140.716 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 146.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 146.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8feaff79-2f3b-4ef3-a6ed-e3bd109183ae")
-		)
-		(pin "2"
-			(uuid "1c07c9dd-1d25-45e1-b352-70f2892b611f")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 191.77 86.36 0)
 		(unit 1)
@@ -6486,6 +6399,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c90d8ec-3266-4916-9cfe-523a52219b76")
+		(property "Reference" "D44"
+			(at 93.726 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 93.726 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad01794-1bfe-4fff-a938-bc910eebb55f")
+		)
+		(pin "2"
+			(uuid "24caf5be-d0c0-4b3c-ad67-41bf54b65193")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -6629,15 +6629,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 107.95 132.08 270)
+		(at 196.85 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4e6ff47f-703a-4bd6-a6c1-0e9a8916f7e7")
-		(property "Reference" "D56"
-			(at 102.616 130.81 90)
+		(uuid "4f82baea-d138-4170-9e1d-c28eefc6377f")
+		(property "Reference" "D11"
+			(at 195.326 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6646,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 102.616 132.588 90)
+			(at 195.326 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6655,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 107.95 132.08 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 132.08 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6673,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 107.95 132.08 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6682,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 107.95 132.08 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6691,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 132.08 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,15 +6700,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "17913c1d-4370-4d00-8068-cd162d6c5743")
+			(uuid "4552e8ba-2ea8-41ee-a0f9-a0c6e9ded47a")
 		)
 		(pin "2"
-			(uuid "1202f60b-2f43-4a05-9514-9bafcf240ac7")
+			(uuid "f768f000-9d87-4405-b871-442a980d132c")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D56")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6783,93 +6783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 107.95 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50d2828b-b81e-4f0a-88e1-242243efc06d")
-		(property "Reference" "D4"
-			(at 102.616 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 102.616 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff332223-4554-4a72-929d-6fcb6b726b75")
-		)
-		(pin "2"
-			(uuid "2a393bb2-b23e-47cb-acee-7df81af6b019")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 204.47 66.04 0)
 		(unit 1)
@@ -6938,93 +6851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 234.95 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53cc31ff-1d87-4d73-b22f-699377611d31")
-		(property "Reference" "D41"
-			(at 229.616 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 229.616 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bb4bdb0-0cbe-4e25-9acf-2a2e9e8b47d3")
-		)
-		(pin "2"
-			(uuid "0a2948fc-5e9b-4aa7-a29c-dff0ebc5c2e5")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 140.97 45.72 0)
 		(unit 1)
@@ -7087,93 +6913,6 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 158.75 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54861f6d-6b01-447b-a200-50e5efd268d0")
-		(property "Reference" "D22"
-			(at 153.416 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 153.416 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "276f57e1-4248-4e48-9805-62bb1893d41d")
-		)
-		(pin "2"
-			(uuid "9f710d5a-1ba7-4d68-8cb3-a933529b192b")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7249,15 +6988,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 120.65 71.12 270)
+		(at 184.15 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "56262850-0fb9-45ec-bdad-88267aab4fd9")
-		(property "Reference" "D19"
-			(at 115.316 69.85 90)
+		(uuid "562d2c4f-978c-467c-b1d5-f3cc9b18cfdf")
+		(property "Reference" "D38"
+			(at 182.626 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7005,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 115.316 71.628 90)
+			(at 182.626 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7014,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 71.12 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 71.12 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7032,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 120.65 71.12 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7041,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 71.12 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7050,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 71.12 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,102 +7059,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "68491c7d-cf54-4fca-aaeb-30efaf442960")
+			(uuid "48ce8761-e65f-49ff-a137-c6967ca8f3f9")
 		)
 		(pin "2"
-			(uuid "eedf647b-2476-48f8-83a2-5617f61dd8e4")
+			(uuid "bc509281-b2e9-4300-8f50-dcda42bd9841")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 133.35 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5686b09b-9600-4372-92fe-621b3820a54e")
-		(property "Reference" "D6"
-			(at 128.016 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 128.016 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b510065-a07e-484e-b710-cacdf7c18d72")
-		)
-		(pin "2"
-			(uuid "051bed2f-727d-480a-8260-8ca98a54a754")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D6")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -7484,93 +7136,6 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 69.85 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "586b0ebe-e637-4452-9592-9faa70252872")
-		(property "Reference" "D15"
-			(at 64.516 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 64.516 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a09aa61-e9a2-493b-810d-ec1947ff4ffd")
-		)
-		(pin "2"
-			(uuid "45ea21ab-ceaf-47bc-8a76-74e33d5010ff")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -7646,15 +7211,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 171.45 91.44 270)
+		(at 107.95 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5a0e8863-f162-4cc8-898e-7eadb2de85ab")
-		(property "Reference" "D37"
-			(at 166.116 90.17 90)
+		(uuid "5976d64d-a7b9-4e98-ae60-c26ca125e3e2")
+		(property "Reference" "D4"
+			(at 106.426 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7228,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 166.116 91.948 90)
+			(at 106.426 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 171.45 91.44 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 91.44 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7255,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 171.45 91.44 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7264,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 171.45 91.44 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7273,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 91.44 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,15 +7282,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a68a477-4806-438d-aa29-a70e2f110193")
+			(uuid "bccc8615-9ea4-4695-b6e4-e93d706788b7")
 		)
 		(pin "2"
-			(uuid "f28cc114-a8ab-4c91-a1ae-64e43020371a")
+			(uuid "52dd3733-a22e-4652-927b-7b64c135707c")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D37")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7733,7 +7298,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 69.85 50.8 270)
+		(at 69.85 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7741,7 +7306,7 @@
 		(dnp no)
 		(uuid "5c84e3cf-7417-42f2-b118-1f299daaf95a")
 		(property "Reference" "D1"
-			(at 64.516 49.53 90)
+			(at 68.326 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7315,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 64.516 51.308 90)
+			(at 68.326 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,9 +7375,96 @@
 			(uuid "99716dae-809b-451d-a49a-f4b61039e5a1")
 		)
 		(instances
-			(project ""
+			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 158.75 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cb7f2f0-928a-48e9-9352-654450d6ab54")
+		(property "Reference" "D36"
+			(at 157.226 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 157.226 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f962460-340c-4fa8-893a-d58896b3ce9b")
+		)
+		(pin "2"
+			(uuid "e812f1f6-0f00-43c7-9510-2d3f46cd2c47")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -7954,93 +7606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 209.55 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6572ebd2-6c6c-4c35-96c7-396d7ee382f9")
-		(property "Reference" "D40"
-			(at 204.216 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 204.216 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 209.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 209.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "110b532c-18d5-40c2-be13-5100026ef62d")
-		)
-		(pin "2"
-			(uuid "3eb3945c-f702-4897-8f4b-5d40557f0e09")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 166.37 106.68 0)
 		(unit 1)
@@ -8110,15 +7675,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 171.45 50.8 270)
+		(at 171.45 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "733d6d08-0b1a-4486-8a31-11a3e1358042")
-		(property "Reference" "D9"
-			(at 166.116 49.53 90)
+		(uuid "6c49ef27-733a-49bc-9352-91bb2a0d6837")
+		(property "Reference" "D50"
+			(at 169.926 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +7692,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 166.116 51.308 90)
+			(at 169.926 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +7701,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 171.45 50.8 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +7710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 50.8 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +7719,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 171.45 50.8 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +7728,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 171.45 50.8 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +7737,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 50.8 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,15 +7746,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8c6e098-f7d5-43ef-978d-b22f1f8be660")
+			(uuid "008aec79-70bc-46ec-b175-bdd711ec6659")
 		)
 		(pin "2"
-			(uuid "404d12e6-2212-4f4f-9d7a-411e4a26799d")
+			(uuid "abe8c31c-2751-4b65-907d-58df09b439d6")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D9")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -8197,15 +7762,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 107.95 111.76 270)
+		(at 95.25 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7511d616-5e69-40cd-be6b-a8eaabd0b225")
-		(property "Reference" "D45"
-			(at 102.616 110.49 90)
+		(uuid "6e5406c4-0011-4ebc-a91e-24958f3a24ae")
+		(property "Reference" "D3"
+			(at 93.726 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +7779,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 102.616 112.268 90)
+			(at 93.726 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +7788,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 107.95 111.76 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 111.76 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +7806,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 107.95 111.76 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +7815,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 107.95 111.76 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +7824,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 111.76 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,15 +7833,276 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e6a2594-bcc8-4844-a11c-ea96e542e11e")
+			(uuid "7db5f31b-d2af-4f0f-beb9-21c052425976")
 		)
 		(pin "2"
-			(uuid "b12331f7-ce53-4044-afb9-b997d160515c")
+			(uuid "08b49d47-db18-43f3-81b7-a6b0db0f9c03")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D45")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 184.15 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71b12d87-78b1-484c-8cf4-031264437d13")
+		(property "Reference" "D51"
+			(at 182.626 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 182.626 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f0a3ab-0ab1-4aa6-9e82-e1fbd9a1844b")
+		)
+		(pin "2"
+			(uuid "3525e924-e2fa-4aa5-af28-aed421a06649")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f3c9c5-4044-4d3d-9c43-ca599af1129f")
+		(property "Reference" "D60"
+			(at 220.726 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 220.726 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3d950c-1848-4d21-95de-c115b0dfe7c2")
+		)
+		(pin "2"
+			(uuid "dc9e3f82-7963-48a6-9d05-c7efb643a682")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 82.55 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76ff4779-6b35-4fa9-a709-dd15e5a8e214")
+		(property "Reference" "D30"
+			(at 81.026 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 81.026 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e3b5070-01d7-4371-93d8-d1ee0ef24c53")
+		)
+		(pin "2"
+			(uuid "d3711d9a-a029-4219-a934-588a6be0add9")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -8352,15 +8178,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 69.85 111.76 270)
+		(at 120.65 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "798b07a5-8f53-4d81-bd52-8af80ea09ded")
-		(property "Reference" "D42"
-			(at 64.516 110.49 90)
+		(uuid "7723e771-3352-40a7-b3d9-0eb09a92a79e")
+		(property "Reference" "D33"
+			(at 119.126 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8195,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 64.516 112.268 90)
+			(at 119.126 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8204,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 69.85 111.76 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 111.76 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,7 +8222,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 69.85 111.76 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8231,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 69.85 111.76 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8240,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 111.76 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,15 +8249,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e57993e-c840-45cc-bb85-a366f5b28faa")
+			(uuid "d5d1efaf-14ab-4c3d-a67d-d84327c48b28")
 		)
 		(pin "2"
-			(uuid "9ba2140c-3f64-40e9-a246-9537a0c11786")
+			(uuid "439c3648-23b2-4115-9afc-28347be23ef5")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D42")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -8439,15 +8265,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 222.25 50.8 270)
+		(at 158.75 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7b63c7be-4b99-4f13-b8a4-d3e5a25d548e")
-		(property "Reference" "D13"
-			(at 216.916 49.53 90)
+		(uuid "772b1863-d0e1-4da3-866f-461166eb21d2")
+		(property "Reference" "D49"
+			(at 157.226 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8282,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 216.916 51.308 90)
+			(at 157.226 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8291,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 222.25 50.8 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 50.8 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8309,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 222.25 50.8 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8318,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 222.25 50.8 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8327,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 222.25 50.8 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,15 +8336,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "31da6a5f-56d1-4588-9bc8-1552d4f618e0")
+			(uuid "c7e6c888-a2a1-4083-bfd6-687c1bdd8709")
 		)
 		(pin "2"
-			(uuid "8c325731-3eeb-40dc-927d-fd0f9b7cb664")
+			(uuid "d986c41a-eea5-43b4-b131-ac17ce62bfda")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D13")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -8526,15 +8352,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 184.15 111.76 270)
+		(at 209.55 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7bc794fb-8adf-4c21-9798-a433f23c7591")
-		(property "Reference" "D51"
-			(at 178.816 110.49 90)
+		(uuid "77b41f95-c454-40c6-983e-b86027067dd9")
+		(property "Reference" "D40"
+			(at 208.026 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8369,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 178.816 112.268 90)
+			(at 208.026 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8378,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 184.15 111.76 0)
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 111.76 0)
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8396,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 184.15 111.76 0)
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8405,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 184.15 111.76 0)
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8414,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 111.76 0)
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,15 +8423,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e1fd4df-fde9-4b09-828a-c03b61a527d8")
+			(uuid "3e8cb2ad-655e-49d7-8169-78c66c2f0f3e")
 		)
 		(pin "2"
-			(uuid "dd847136-a91a-4bb9-a7e3-8e9478fdfaa5")
+			(uuid "9624d21f-af3a-49e8-a915-d0bd4f10031a")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D51")
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 171.45 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7affce79-701f-4806-9095-da7fa9eb1f90")
+		(property "Reference" "D37"
+			(at 169.926 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 169.926 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0993358-f213-4f13-be8e-92c74603feb4")
+		)
+		(pin "2"
+			(uuid "89f630c5-087c-4251-bdc0-de81020d049b")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -8680,93 +8593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 133.35 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82acecfd-7c0a-4ae5-ba1f-de53df13cd0c")
-		(property "Reference" "D47"
-			(at 128.016 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 128.016 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "675aaa10-c7dd-41a6-9684-532942b24a51")
-		)
-		(pin "2"
-			(uuid "2fc85b2e-9aa4-422b-9152-2d1ceb40843c")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 90.17 86.36 0)
 		(unit 1)
@@ -8829,6 +8655,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 69.85 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83adb07a-abb5-4a20-b539-d9cdddca95c2")
+		(property "Reference" "D15"
+			(at 68.326 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 68.326 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "517e1b66-4939-4db7-98b6-f81cf3ee6b7b")
+		)
+		(pin "2"
+			(uuid "2f2ae7ad-2849-4444-bba9-e282fc7d2a83")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -8903,6 +8816,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 234.95 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8848fc44-1d09-4888-bae9-c5976ca128ec")
+		(property "Reference" "D53"
+			(at 233.426 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 233.426 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9af45c-5f01-490a-a589-37b508cad843")
+		)
+		(pin "2"
+			(uuid "1df9a466-7890-4894-8320-c83229312149")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 166.37 86.36 0)
 		(unit 1)
@@ -8965,6 +8965,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 146.05 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c1b4477-bcc9-40c2-b90b-5df8c8056d3e")
+		(property "Reference" "D7"
+			(at 144.526 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 144.526 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d88ff3-d7d1-41f7-b18f-72c97e7322fe")
+		)
+		(pin "2"
+			(uuid "4086bd24-9d20-442e-8cb5-1d67c194bbcc")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9175,93 +9262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 82.55 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fa071c3-5b48-4b6b-9227-395c531aa813")
-		(property "Reference" "D30"
-			(at 77.216 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 77.216 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c4665a4-a0af-41aa-bf6b-9926befea6dc")
-		)
-		(pin "2"
-			(uuid "a010cda5-88c7-4848-9e56-40a781894426")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 102.87 66.04 0)
 		(unit 1)
@@ -9324,6 +9324,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 158.75 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "930a4bda-56f1-4f60-aca3-2c35b1144c6d")
+		(property "Reference" "D22"
+			(at 157.226 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 157.226 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cd84e09-8dcd-4388-93c0-80a2d8a30027")
+		)
+		(pin "2"
+			(uuid "2b23b43f-8058-4749-9a84-e7c841de849a")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -9603,15 +9690,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 71.12 270)
+		(at 69.85 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "97da5178-df17-4546-907e-a576356a1dfa")
-		(property "Reference" "D16"
-			(at 77.216 69.85 90)
+		(uuid "983cdd59-039c-4e27-bb64-950bc85c04db")
+		(property "Reference" "D42"
+			(at 68.326 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9707,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 77.216 71.628 90)
+			(at 68.326 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9716,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 82.55 71.12 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 71.12 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9734,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 71.12 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9743,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 71.12 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9752,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 71.12 0)
+			(at 69.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,15 +9761,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d49c758a-471d-4d8f-a439-97a9727de11b")
+			(uuid "a383627e-4b83-4a74-803b-879efaad97d1")
 		)
 		(pin "2"
-			(uuid "0e24d965-da93-456e-b7ed-b934ddf4c6bf")
+			(uuid "c01bc801-27c0-4fec-9ff1-d697ee0c4292")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D16")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -9758,15 +9845,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 133.35 71.12 270)
+		(at 196.85 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9cfd00c3-3a9d-4b97-83ab-1f7880239006")
-		(property "Reference" "D20"
-			(at 128.016 69.85 90)
+		(uuid "9c4e91d2-c782-4f72-b7c8-99afc2aad39d")
+		(property "Reference" "D39"
+			(at 195.326 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +9862,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 128.016 71.628 90)
+			(at 195.326 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +9871,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 71.12 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +9880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 71.12 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9889,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 133.35 71.12 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +9898,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 71.12 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,7 +9907,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 71.12 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,15 +9916,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca116999-337d-4737-89ce-dbaf3f6ba17e")
+			(uuid "211d4775-75fe-47dc-be08-20a586303a2c")
 		)
 		(pin "2"
-			(uuid "bbec1ee2-934e-4147-9ee5-1c76aa6589c4")
+			(uuid "17d8549b-19b8-49b0-a1ce-ed0a9d60f01e")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D20")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -9845,15 +9932,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 111.76 270)
+		(at 82.55 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9ef45f5d-d535-441e-9388-0dec56fdf7aa")
-		(property "Reference" "D44"
-			(at 89.916 110.49 90)
+		(uuid "9d5084cd-07fd-40de-8212-6fd52e8d0203")
+		(property "Reference" "D16"
+			(at 81.026 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9949,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 89.916 112.268 90)
+			(at 81.026 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9958,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 95.25 111.76 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +9967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 111.76 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9976,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 95.25 111.76 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9985,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 111.76 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +9994,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 111.76 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,15 +10003,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "55c63c47-4fe1-46fe-b1e6-b6c030a0e83e")
+			(uuid "f4965163-9aeb-4853-a080-7c0d3ca03579")
 		)
 		(pin "2"
-			(uuid "c52fb60d-30f3-40f9-b83d-54197376e178")
+			(uuid "f0fcf76a-0d4a-484e-a196-0069376ce8e2")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D44")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -9932,15 +10019,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 158.75 50.8 270)
+		(at 184.15 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4b1c881-0e77-468b-a432-1bd49e8b55cc")
-		(property "Reference" "D8"
-			(at 153.416 49.53 90)
+		(uuid "a12cfa51-3d88-4e27-a661-b78d0a9a5984")
+		(property "Reference" "D24"
+			(at 182.626 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10036,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 153.416 51.308 90)
+			(at 182.626 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10045,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 158.75 50.8 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 50.8 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +10063,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 158.75 50.8 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10072,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 158.75 50.8 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +10081,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 50.8 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,15 +10090,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ea7dfc3-a1ce-4aa4-9d79-c3d0e75be1f4")
+			(uuid "f15b21df-4b66-4cd4-9206-8a9586e03892")
 		)
 		(pin "2"
-			(uuid "176ef7e0-60bc-43e2-b4b4-aa8352ed1573")
+			(uuid "f5b9d40f-6636-4225-8154-d4ec7e58c0d7")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D8")
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 234.95 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2e8c3d8-836a-47c0-b2eb-706fbb403264")
+		(property "Reference" "D41"
+			(at 233.426 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 233.426 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b51952a-e799-4282-8a5d-e9cf448fd061")
+		)
+		(pin "2"
+			(uuid "7d6d6bf1-5d73-4787-9d4c-f56fc3a85a4c")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 234.95 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6cca0e6-e5df-4baf-96a4-cb4432783a50")
+		(property "Reference" "D14"
+			(at 233.426 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 233.426 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e238859e-b449-4873-8866-db0f7dadd65d")
+		)
+		(pin "2"
+			(uuid "4692ffb0-e9a2-4751-8ed5-34a6bf97f2df")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10080,6 +10341,93 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8198334-79e6-4268-8fa0-57c450f74704")
+		(property "Reference" "D57"
+			(at 119.126 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 119.126 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b907011-07b4-441e-bf3e-9435763aa30d")
+		)
+		(pin "2"
+			(uuid "b72d84df-1274-48a8-bc28-a5202ce8f11b")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -10223,15 +10571,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 132.08 270)
+		(at 209.55 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ac7b9d91-5d6f-4ec3-a901-1b3110c9a16a")
-		(property "Reference" "D59"
-			(at 204.216 130.81 90)
+		(uuid "ac33f72c-8939-4453-b784-db628d108721")
+		(property "Reference" "D26"
+			(at 208.026 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10588,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 204.216 132.588 90)
+			(at 208.026 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10597,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 132.08 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 132.08 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10615,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 132.08 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10624,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 132.08 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +10633,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 132.08 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,15 +10642,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "756ffa31-f221-4848-8edb-ae22bea46904")
+			(uuid "6922aeac-aaa1-4ac0-beb9-207f0ebb7a23")
 		)
 		(pin "2"
-			(uuid "360bb980-9b20-4b1d-8aab-9af001ef9259")
+			(uuid "78a69310-41c9-436d-b450-f51d8c493790")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D59")
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 234.95 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac3a3ee3-877b-4af1-9a55-bd09deef41b6")
+		(property "Reference" "D28"
+			(at 233.426 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 233.426 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af3bfde-4653-4c3a-9b8e-23924a02227a")
+		)
+		(pin "2"
+			(uuid "8abd849e-9bda-458c-9aeb-7390dfcaf519")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -10446,15 +10881,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 222.25 71.12 270)
+		(at 95.25 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afb93050-5fe6-4d24-9787-1b5d36e7a51c")
-		(property "Reference" "D27"
-			(at 216.916 69.85 90)
+		(uuid "b0491e71-8fee-4184-a6ae-751e58c6c6d8")
+		(property "Reference" "D55"
+			(at 93.726 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10898,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 216.916 71.628 90)
+			(at 93.726 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +10907,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 222.25 71.12 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,7 +10916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 71.12 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,7 +10925,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 222.25 71.12 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +10934,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 222.25 71.12 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10943,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 222.25 71.12 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,102 +10952,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a655bba-8a2a-4fae-adf5-8cfff2c677a3")
+			(uuid "46b31e83-bf35-45dc-ae1f-26768b975c0a")
 		)
 		(pin "2"
-			(uuid "188a2baf-7427-48dc-b60f-a46c716c91e2")
+			(uuid "69a47573-1d86-42aa-bff2-2b0aa7f39de4")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 184.15 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b05cef6e-9ed6-4151-a4fc-22448ab596f8")
-		(property "Reference" "D38"
-			(at 178.816 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 178.816 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcaf142e-d411-41be-b130-92ba97e7309c")
-		)
-		(pin "2"
-			(uuid "3a548443-8a1a-4c87-aa94-ba6d730216dd")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D38")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -10688,15 +11036,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 91.44 270)
+		(at 95.25 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b28f075d-f3da-4ea5-888f-ba6819f7eb9d")
-		(property "Reference" "D31"
-			(at 89.916 90.17 90)
+		(uuid "b3283128-71ee-4023-a52c-ab8c7961eab7")
+		(property "Reference" "D17"
+			(at 93.726 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +11053,355 @@
 			)
 		)
 		(property "Value" "D"
-			(at 89.916 91.948 90)
+			(at 93.726 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61c0b897-9b9f-4895-9330-db7b415197d8")
+		)
+		(pin "2"
+			(uuid "b1b763ce-37c0-4050-9d3b-f141ba0e6d9b")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb4204e4-e23b-4715-b7db-3ba2f67a15b9")
+		(property "Reference" "D18"
+			(at 106.426 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 106.426 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b29ecce-6baf-46f3-b88d-c48d81edcf80")
+		)
+		(pin "2"
+			(uuid "bc4c40cd-7750-4e24-ad48-bd060577515c")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 146.05 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "becc1a8e-a5b0-43af-a0a0-0af874f7c5b3")
+		(property "Reference" "D21"
+			(at 144.526 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 144.526 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "408a4e06-90a7-44f3-b900-bf05cb666779")
+		)
+		(pin "2"
+			(uuid "6d124559-d4e7-4fce-b984-c1f14176bc0f")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bffc287b-8cb0-4752-babb-b87e5a3e5d83")
+		(property "Reference" "D19"
+			(at 119.126 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 119.126 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2490b9-174a-4e20-8b94-a65fa2e4da00")
+		)
+		(pin "2"
+			(uuid "94c17700-17c1-44d9-9370-0411692f449c")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c130daed-fa68-4ca8-9098-32af70fcef16")
+		(property "Reference" "D31"
+			(at 93.726 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 93.726 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,10 +11455,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fda2b31-6ebf-47d7-9fb9-c10bf3511fbe")
+			(uuid "0079a650-ab14-47a6-82b2-5a813c5a9b64")
 		)
 		(pin "2"
-			(uuid "da135d6d-14f9-436f-bcd5-4fdd2ee7c89a")
+			(uuid "0753a685-91a8-46da-9fc5-56861d92f42e")
 		)
 		(instances
 			(project "simplekeyboard"
@@ -10775,15 +11471,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 171.45 111.76 270)
+		(at 222.25 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba8ec8ef-e6dc-4bba-b773-836aa0614252")
-		(property "Reference" "D50"
-			(at 166.116 110.49 90)
+		(uuid "c76583db-5b03-4469-bb79-b5716e16f5ee")
+		(property "Reference" "D13"
+			(at 220.726 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +11488,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 166.116 112.268 90)
+			(at 220.726 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +11497,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 171.45 111.76 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +11506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 111.76 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +11515,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 171.45 111.76 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +11524,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 171.45 111.76 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +11533,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 111.76 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,15 +11542,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "95affbec-3fbd-4eab-9395-5f2130b4831f")
+			(uuid "40b2632c-e04a-480c-9354-3686abe14aa9")
 		)
 		(pin "2"
-			(uuid "ef2f083e-a846-418e-b60a-d7f6917db777")
+			(uuid "3984d2a2-975e-429b-b309-5d92a89c7303")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D50")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10862,15 +11558,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 50.8 270)
+		(at 107.95 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd9090a6-b5ff-4baf-b413-2fc498e9abbe")
-		(property "Reference" "D3"
-			(at 89.916 49.53 90)
+		(uuid "c7a2f2da-b399-4210-a674-a67b6ff84bd0")
+		(property "Reference" "D56"
+			(at 106.426 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10879,7 +11575,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 89.916 51.308 90)
+			(at 106.426 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10888,7 +11584,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 95.25 50.8 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10897,7 +11593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 50.8 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,7 +11602,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 95.25 50.8 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +11611,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 50.8 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +11620,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 50.8 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,711 +11629,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "91a0dac0-37c3-45fb-bb3d-6de571600632")
+			(uuid "679cd24b-ddf2-4c6c-82c0-a1e1e5807f69")
 		)
 		(pin "2"
-			(uuid "4a2b4769-fca0-46d4-8845-2e9a3ee7249b")
+			(uuid "8b7472fa-bcf8-4e63-9b50-fc197dc21a0c")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 120.65 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bddfb743-f5cc-4421-be95-7cc6b1121122")
-		(property "Reference" "D57"
-			(at 115.316 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 115.316 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e675f102-c6eb-46df-ac8c-854919c874aa")
-		)
-		(pin "2"
-			(uuid "3cb4ba92-132b-4c08-9565-6f36fe34ec2d")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 196.85 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c078ca8b-b819-468b-9e67-7e4345c2680f")
-		(property "Reference" "D39"
-			(at 191.516 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 191.516 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f82b6e6-385a-4c8d-8f82-8d0637378d10")
-		)
-		(pin "2"
-			(uuid "f2bc95b0-82be-4cdf-989d-86c9b067858e")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 82.55 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0bfa8b6-65e6-45cd-a362-2bfca84d1c1a")
-		(property "Reference" "D2"
-			(at 77.216 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 77.216 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f7b4e85-cc17-412c-9aab-5b14a455f87c")
-		)
-		(pin "2"
-			(uuid "ac688559-e8ab-4c5e-b22a-1b7ebd7df993")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 158.75 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1ab9c01-ab0f-45d9-891f-b4bf7a94dc0c")
-		(property "Reference" "D36"
-			(at 153.416 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 153.416 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cbb5291-5153-445d-8638-7b57769e6742")
-		)
-		(pin "2"
-			(uuid "e394ccfe-5adb-4347-9400-1a2080e2a8eb")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 82.55 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c25ce838-55af-4702-bbed-af4777f2686f")
-		(property "Reference" "D54"
-			(at 77.216 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 77.216 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ff59f72-3ee3-4e3d-ad64-8d6c8114fd3f")
-		)
-		(pin "2"
-			(uuid "967a7f98-2c8f-41a7-baf3-6512dbe4b537")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 120.65 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c572609d-eae0-4834-a92d-b514b23cfd77")
-		(property "Reference" "D46"
-			(at 115.316 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 115.316 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e3449ac-3ad7-42e4-89a7-07bc99263710")
-		)
-		(pin "2"
-			(uuid "d9916f9c-6c51-4a7b-930b-52da47fda2b1")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 196.85 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb79309a-4f89-49f5-b6dc-8a700871ef7c")
-		(property "Reference" "D11"
-			(at 191.516 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 191.516 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1e84d81-88c3-4c9c-9dff-d49d9bf99f9c")
-		)
-		(pin "2"
-			(uuid "139c8c1f-3aaa-4b97-a273-65853d81d3be")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 171.45 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc644ef4-40b0-424b-9fa8-638c5e70c104")
-		(property "Reference" "D23"
-			(at 166.116 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 166.116 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f92ffc4f-07b0-4248-952d-3121b61637e8")
-		)
-		(pin "2"
-			(uuid "1920e241-7bdf-409a-9b37-a0661f3a3dcc")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D23")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -11706,180 +11706,6 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 146.05 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce2abc6e-18b9-4e2b-86d6-09bc666e1b90")
-		(property "Reference" "D35"
-			(at 140.716 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 140.716 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7c33146-fb25-4df3-a919-4cb028797ee9")
-		)
-		(pin "2"
-			(uuid "814456c4-26da-4448-adf8-e320fc033421")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 120.65 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf92b75c-a739-4df7-81b6-e4bf457a25fe")
-		(property "Reference" "D5"
-			(at 115.316 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 115.316 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16e211f3-7412-4ce8-a9f0-05cb80efa99f")
-		)
-		(pin "2"
-			(uuid "a56a3bf4-da33-4571-b906-922799020ad3")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11955,15 +11781,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 50.8 270)
+		(at 82.55 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d4bfb761-5a20-424e-b034-e285be8c8483")
-		(property "Reference" "D7"
-			(at 140.716 49.53 90)
+		(uuid "d2ab1b55-4e3d-4fbd-ab03-51f6f56ae39b")
+		(property "Reference" "D2"
+			(at 81.026 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +11798,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 140.716 51.308 90)
+			(at 81.026 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +11807,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 50.8 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +11816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 50.8 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +11825,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 50.8 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +11834,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 50.8 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +11843,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 50.8 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,15 +11852,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "87528d2d-5d6d-4bf5-b408-eb497a04ec09")
+			(uuid "e69706ae-426e-463e-89bb-24fb72a19b08")
 		)
 		(pin "2"
-			(uuid "843f9e4b-ad39-47f5-b96f-450d614d670d")
+			(uuid "c5aad6b4-fe5e-4caa-9c40-3ebdd4530ef1")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12042,15 +11868,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 196.85 71.12 270)
+		(at 107.95 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da1895e7-81a3-4bf8-a9d2-9edbfbdebbee")
-		(property "Reference" "D25"
-			(at 191.516 69.85 90)
+		(uuid "d71ebc28-8111-44f7-afe1-e9fe77a2e737")
+		(property "Reference" "D45"
+			(at 106.426 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12059,7 +11885,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 191.516 71.628 90)
+			(at 106.426 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +11894,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 71.12 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,7 +11903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 71.12 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +11912,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 196.85 71.12 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +11921,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 196.85 71.12 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +11930,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 71.12 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,15 +11939,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8e325a3-98c2-4f38-8142-4d451b4669a0")
+			(uuid "5a31726a-2415-4ae2-8737-95a77ebc07ab")
 		)
 		(pin "2"
-			(uuid "b352df2b-2bc8-46a5-9603-4eb963a58f0a")
+			(uuid "b7c10cc4-6a4b-4efc-9d9e-c7c5426af4f8")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D25")
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 171.45 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d842f69a-fabd-4a55-8120-bcd98fb4014c")
+		(property "Reference" "D23"
+			(at 169.926 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 169.926 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d703294-a2b5-4d8f-b0d9-9672b414cf07")
+		)
+		(pin "2"
+			(uuid "a3600d99-14a9-4987-8df7-9b219e6caa32")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 133.35 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d904a1e0-9c87-476d-9dcb-b1bdd89fc60d")
+		(property "Reference" "D34"
+			(at 131.826 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 131.826 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c430b3-04aa-4e72-acc5-2e08aabc6881")
+		)
+		(pin "2"
+			(uuid "ecce750b-533b-42cb-aed3-fdb3cc1a442a")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -12258,93 +12258,6 @@
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
 					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 234.95 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e47d1b30-ef1c-46da-b513-811474fd4233")
-		(property "Reference" "D14"
-			(at 229.616 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 229.616 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e692cfd2-0bb2-42f7-9f99-2d98886b8a54")
-		)
-		(pin "2"
-			(uuid "803b02ba-075a-428f-a82d-e2191ac3c709")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12488,15 +12401,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 158.75 111.76 270)
+		(at 133.35 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6f5f070-ec7f-4541-b9e5-fb7caf585d3e")
-		(property "Reference" "D49"
-			(at 153.416 110.49 90)
+		(uuid "ec742f16-7624-461f-a502-3a63fb39f3c3")
+		(property "Reference" "D6"
+			(at 131.826 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12418,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 153.416 112.268 90)
+			(at 131.826 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +12427,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 158.75 111.76 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 111.76 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,7 +12445,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 158.75 111.76 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,7 +12454,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 158.75 111.76 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12463,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 111.76 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12559,15 +12472,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb4c251f-eed2-4554-9bf8-fad0b5661f8a")
+			(uuid "273716a2-93c6-47f4-8ef4-6424ed033d5a")
 		)
 		(pin "2"
-			(uuid "32a0ceeb-5c6f-48d7-ac76-a9dd3342b6d2")
+			(uuid "6f679cc5-0c5c-4c79-9cde-3d7fb1c5d79b")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D49")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12575,15 +12488,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 234.95 132.08 270)
+		(at 184.15 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee9bf94b-154e-466e-96de-fdb6878455bf")
-		(property "Reference" "D61"
-			(at 229.616 130.81 90)
+		(uuid "ec8fe2b8-2d7f-4e1b-a4fe-88751b677a6b")
+		(property "Reference" "D10"
+			(at 182.626 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12505,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 229.616 132.588 90)
+			(at 182.626 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12514,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 132.08 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 132.08 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12532,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 234.95 132.08 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12541,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 234.95 132.08 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12550,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 132.08 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,15 +12559,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "980f2888-928e-4430-9da4-cf46dee14aa0")
+			(uuid "3a0935ef-155b-45af-8221-dea2f1efd887")
 		)
 		(pin "2"
-			(uuid "39054eb9-d44d-4d38-8b0c-bcb84bb6dbff")
+			(uuid "8f482579-8255-4198-a40b-4d3e0d307124")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D61")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 133.35 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edaf9d79-c289-4373-ac73-854d850242fd")
+		(property "Reference" "D47"
+			(at 131.826 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 131.826 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48890f85-e6e9-4955-8b30-85121085410d")
+		)
+		(pin "2"
+			(uuid "040982f3-4275-4241-8ed2-989de394a79b")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 158.75 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edb22d00-5c23-45d4-a7b9-5a4da7c1e074")
+		(property "Reference" "D8"
+			(at 157.226 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 157.226 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ab4789-5654-4571-a59a-c6bb6edb1f8e")
+		)
+		(pin "2"
+			(uuid "4736cb78-c026-44fa-91fd-3f142e11cb01")
+		)
+		(instances
+			(project "simplekeyboard"
+				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12730,15 +12817,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 196.85 111.76 270)
+		(at 196.85 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3f4cd08-bdd6-4b61-a02e-a0b796ece9e5")
-		(property "Reference" "D52"
-			(at 191.516 110.49 90)
+		(uuid "f448ce69-a905-4331-84a6-8a2ce5a0291a")
+		(property "Reference" "D58"
+			(at 195.326 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12834,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 191.516 112.268 90)
+			(at 195.326 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12843,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 196.85 111.76 0)
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 111.76 0)
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +12861,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 196.85 111.76 0)
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +12870,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 196.85 111.76 0)
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,7 +12879,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 111.76 0)
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,15 +12888,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "54b39a6a-6588-4b38-a867-3189fc713b84")
+			(uuid "d2802e6c-c4c2-4888-8271-d5a862fa6e3e")
 		)
 		(pin "2"
-			(uuid "f2839cdd-ae38-4e89-b5b9-78ef6dd58180")
+			(uuid "c4ef4cbe-2e86-456e-931c-4387d7457a3d")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D52")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -12885,15 +12972,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 69.85 91.44 270)
+		(at 209.55 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fb0cca8f-78a6-44f0-850f-0f448a5440c5")
-		(property "Reference" "D29"
-			(at 64.516 90.17 90)
+		(uuid "fe1b2d41-e63d-42cd-96a7-f1ec13882970")
+		(property "Reference" "D59"
+			(at 208.026 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,7 +12989,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 64.516 91.948 90)
+			(at 208.026 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12911,7 +12998,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 69.85 91.44 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12920,7 +13007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 91.44 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,7 +13016,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 69.85 91.44 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +13025,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 69.85 91.44 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +13034,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 91.44 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,102 +13043,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd82ffd4-28e3-4952-8dd3-9e8c153cc674")
+			(uuid "19322510-dce5-48c1-9a56-07b6033e303b")
 		)
 		(pin "2"
-			(uuid "196f7757-b6a2-47c3-b38f-7d1c0e7efec3")
+			(uuid "8d8f8597-f9cc-42e4-99e8-7a02c0aee2ad")
 		)
 		(instances
 			(project "simplekeyboard"
 				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 209.55 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdc48899-1304-43a9-be33-9a4e704f2834")
-		(property "Reference" "D12"
-			(at 204.216 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 204.216 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "740e46f9-b187-4142-b17e-91f3008c554a")
-		)
-		(pin "2"
-			(uuid "29ae009d-0b6f-4f5c-83a5-fed15fe64bc9")
-		)
-		(instances
-			(project "simplekeyboard"
-				(path "/312ab52b-f5fa-4c1e-9c90-f6eee5852284/00fc70c6-b007-4390-8482-4a464265eae3"
-					(reference "D12")
+					(reference "D59")
 					(unit 1)
 				)
 			)
